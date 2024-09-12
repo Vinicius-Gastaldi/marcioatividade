@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Departamentos</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Departamentos</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a>
+            <li><a href="departamento.html">Departamentos</a>
+            <li><a href="funcionario.html">Funcionários</a>
+            <li><a href="folhaPagamento.html">Folhas de Pagamento</a>
+            <li><a href="usuario.html">Usuários</a>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Lista de Departamentos</h2>
+        <a href="addDepartamento.html">Adicionar Departamento</a>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Recursos Humanos</td>
+                <td>
+                    <a href="editarDepartamento.html?id=1">Editar</a>
+                    <a href="deleteDepartamento.html?id=1">Excluir</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Financeiro</td>
+                <td>
+                    <a href="editarDepartamento.html?id=2">Editar</a>
+                    <a href="deleteDepartamento.html?id=2">Excluir</a>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Gestão</p>
+    </footer>
+</body>
+</html>

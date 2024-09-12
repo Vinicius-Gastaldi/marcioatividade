@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Funcionários</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="departamento.html">Departamentos</a>
+        <a href="funcionario.html">Funcionários</a>
+        <a href="folhaPagamento.html">Folhas de Pagamento</a>
+        <a href="usuario.html">Usuários</a>
+    </nav>
+
+    <main>
+        <h2>Lista de Funcionários</h2>
+        <a href="addFuncionario.html">Adicionar Funcionário</a>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Departamento</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>João Silva</td>
+                <td>Recursos Humanos</td>
+                <td>
+                    <a href="editarFuncionario.html?id=1">Editar</a>
+                    <a href="deleteFuncionario.html?id=1">Excluir</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria Souza</td>
+                <td>Financeiro</td>
+                <td>
+                    <a href="editarFuncionario.html?id=2">Editar</a>
+                    <a href="deleteFuncionario.html?id=2">Excluir</a>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Gestão</p>
+    </footer>
+</body>
+</html>
