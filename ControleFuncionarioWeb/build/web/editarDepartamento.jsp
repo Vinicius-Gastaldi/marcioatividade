@@ -31,7 +31,7 @@
         <h1>Editar Departamento</h1>
         <% if (depto != null) { %>
         <form action="salvarDepartamento.jsp" method="POST">
-            <input type="hidden" name="idDepto" value="<%= depto.getIdDepto() %>">
+            <input type="hidden" name="idDepto" value="<%= Integer.parseInt(request.getParameter("idDepto")) %>">
             <div class="form-group">
                 <label for="descDepto">Descrição:</label>
                 <input type="text" id="descDepto" name="descDepto" class="form-control" value="<%= depto.getDescDepto() %>" required>

@@ -14,6 +14,7 @@
     try {
         if (idDeptoParam != null && descDepto != null) {
             int idDepto = Integer.parseInt(idDeptoParam);
+            
             departamento.setIdDepto(idDepto);
             departamento.setDescDepto(descDepto);
 

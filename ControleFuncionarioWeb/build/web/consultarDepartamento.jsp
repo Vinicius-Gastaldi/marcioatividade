@@ -1,4 +1,3 @@
-<!-- Página de Lista de Departamentos (consultarDepartamento.jsp) -->
 <%@ page import="controlefuncionario.Departamento" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -13,8 +12,8 @@
         out.println("<p>Erro ao carregar departamentos: " + e.getMessage() + "</p>");
     }
 %>
-
 <!DOCTYPE html>
+<!-- Página de Lista de Departamentos (consultarDepartamento.jsp) -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">

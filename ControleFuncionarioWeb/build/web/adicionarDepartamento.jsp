@@ -11,11 +11,8 @@
     Departamento Depto = new Departamento();
     Depto.setDescDepto(descDepto);
     
+    
     Depto.incluirDepartamento();
     
     response.sendRedirect("Departamento.jsp");
-
-
-
-
 %>

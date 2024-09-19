@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -23,7 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </a>   
                 <div class="sidebar-brand">
-                    <a href="#">Controle Funcion·rio</a>
+                    <a href="menu.jsp">Controle Departamento</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,8 +46,8 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li><a href="Departamento.jsp">Departamento</a></li>
-                <li><a href="#">Funcion·rio</a></li>
-                <li><a href="#">Usu·rio</a></li>
+                <li><a href="Funcionario.jsp">Funcion√°rio</a></li>
+                <li><a href="#">Usu√°rio</a></li>
                 <li><a href="#">Folha de Pagamento</a></li>
             </ul>
         </div> <!-- /#sidebar-wrapper -->
@@ -57,7 +58,7 @@
                 <h1>Adicionar Novo Departamento</h1>
                 <form action="adicionarDepartamento.jsp" method="POST">
                     <div class="form-group">
-                        <label for="descDepto">DescriÁ„o:</label>
+                        <label for="descDepto">Descri√ß√£o:</label>
                         <input type="text" id="descDepto" name="descDepto" class="form-control" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Adicionar</button>
@@ -66,8 +67,8 @@
 
             <div class="container mt-5">
                 <h1>Consulta de Departamentos</h1>
-                <!-- Exibe apenas a tabela de listagem dos departamentos, sem o formul·rio -->
-                <iframe src="consultarDepartamento.jsp" width="100%" height="400px" style="border: none;"></iframe>
+                <!-- Exibe apenas a tabela de listagem dos departamentos, sem o formul√°rio -->
+                <iframe src="consultarDepartamento.jsp" width="100%" height="400" style="border: none;"></iframe>
             </div>
         </div> <!-- /#page-content-wrapper -->
     </div> <!-- /#wrapper -->
